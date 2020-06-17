@@ -1,0 +1,177 @@
+html, body{
+    background: #ededed;
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+#navbar{
+    margin:0;
+    border-radius: 0;
+}
+
+
+
+#brand{
+    font-size:22px;
+    color:#002868;
+    font-weight: 700;
+
+
+    }
+
+    @media (max-width:500px){
+        #brand{
+            font-size: 14px;
+        }
+
+        #web-background{
+            width: 100%;
+            height: 300px;
+        }
+    }
+
+    #web-background{
+        width:100%;
+        height: 600px;
+    }
+
+    #about{
+        padding-top: 50px;
+
+    }
+
+    .img{
+        text-align: center;
+    }
+
+    #my-pic{
+        width: 200px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    #me-now{
+        width: 300px;
+        height: 300px;
+        border-radius: 20%;
+        
+    }
+
+    #about p{
+        font-family: serif;
+        font-size: 18px;
+    }
+
+    #about h1{
+        padding-bottom:10px;
+        border-bottom: 2px solid silver;
+        font-family: impact;
+        font-size: 32px;
+    }
+
+    #projects{
+        padding-top: 50px;
+    }
+
+    #run {
+        width: 300px;
+        height: auto;
+    }
+
+    .project-tile{
+        padding-bottom:10px;
+        border-bottom: 2px solid silver;
+        font-family: impact;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #projects h1{
+        padding-top: 50px;
+        padding-bottom:10px;
+        border-bottom: 2px solid black;
+        font-family: impact;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    #projects p{
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+
+    #second{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .pr-img{
+        width: 300px;
+        height: 250px;
+    }
+    #skill{
+        margin-top: 50px;
+    }
+
+    #skill h2{
+        color:#0056e2;
+        padding-bottom:10px;
+        border-bottom: 2px solid black;
+        font-family: impact;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #skill ul {
+        list-style: none;
+    }
+
+    #skill li{
+        font-family: cursive;
+        font-size: 20px;
+
+    }
+
+    #contact{
+        background: black;
+        color: white;
+
+    }
+
+    #code{
+        color: green;
+
+    }
+
+    #quora{
+        color:red;
+    }
+
+    #footer{
+        background: #001942;
+        color: white;
+        font-size: 20px;
+        padding:10px;
+        padding-top: 20px;
+    }
+
+    #welcome-section{
+        height: 635px;
+    }
+
+    @media (max-width:800px){
+        #welcome-section{
+            height: auto;
+        }
+    }
+
+    @media (max-width: 600px)
+{
+#web{
+    width: 250px;
+    height: auto;
+}
+}
